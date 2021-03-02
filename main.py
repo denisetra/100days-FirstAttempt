@@ -90,6 +90,7 @@ def Final_Communications():
   elif player_lost == False:
     print ("\nYou have won!")
     print (f"The computer total was: {computer_sum} and your total was: {player_sum}")
+    print(art.youwon)
 
   print (f"\nFinal Computer hand: {computer_hand}")
   print (f"Your final hand: {player_hand}")
