@@ -16,11 +16,11 @@ computer_sum = 0
 player_sum = 0
 
 def Draw_Card():
+  """Returns a random card from the deck"""
   global drawn_card
   drawn_card = random.choice(cards)
 
 def Initial_Deal():
-  #global computer_sum, player_sum
   for players in range(2):
     Draw_Card()
     computer_hand.append(drawn_card)
