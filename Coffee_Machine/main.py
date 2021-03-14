@@ -109,7 +109,7 @@ def Report():
         if key == "water" or key == "milk":
             unit = "ml"
         if key == "coffee":
-            unit == "g"
+            unit = "g"
         if key == "money":
             pre = "$"
         print (f"{key}:     {pre}{value}{unit}")
@@ -121,7 +121,7 @@ def Off():
 User_Prompt()
 
 
-
+print ("\nThank you for using this coffee machine.\n Please come again.")
 
 
 
