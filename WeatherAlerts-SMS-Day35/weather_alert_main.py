@@ -1,14 +1,14 @@
 import requests
 from twilio.rest import Client
-TWILIO_ACCOUNT_SID = 'AC6873234a8482d40a0bbd5d4f83e72232'
-TWILIO_AUTH_TOKEN ='d92ad1621f21b2abd12c27a8da6a5328'
+TWILIO_ACCOUNT_SID = 'hidden'
+TWILIO_AUTH_TOKEN ='hidden'
 #account_sid = os.environ['TWILIO_ACCOUNT_SID']
 #auth_token = os.environ['TWILIO_AUTH_TOKEN']
 account_sid = TWILIO_ACCOUNT_SID
 auth_token = TWILIO_AUTH_TOKEN
 
 # hourly forecast for next 48 hours for Denver
-my_key ='852b76821dde4cf9420f382bab843db6'
+my_key ='hidden'
 #my_key = os.environ.get("OWM_API_KEY")
 my_lat = ''
 my_long = ''
