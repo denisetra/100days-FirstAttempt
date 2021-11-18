@@ -1,0 +1,5 @@
+This program does the following:
+1) Reaches out to a pre-made google sheets spreadsheet and pulls down info from it. (City, Airport code, lowest price)
+2) If Airport code is missing, it will reach out to an API and pull down the code. 
+3) Program will search for the lowest price flight in next 5 months, and if the lowest price is lower than the price listed on the spreadsheet, will update spreadsheet. 
+4) Will then send a SMS message alerting end-user that there is a low priced flight available.
