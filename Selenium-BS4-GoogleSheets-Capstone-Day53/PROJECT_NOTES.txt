@@ -1,0 +1,9 @@
+So the project was to scrape Zillow for rentals in SanFran, export 3 datasets using BeautifulSoup, and then use Selenium to put into Google Forms, and from there Google Sheets. 
+
+1) Zillow no longer allows scraping. (Capcha). Had to find another similar real-estate site. 
+2) Google no longer allows Selenium/chromedriver to access the site. Found a new chromedriver. (undetected-chromedriver.v2)
+	Instructions for use are in the file "GOOGLE_SELENIUM_WORKAROUND"
+
+Overall, getting easier to move around in Selenium, and I can see lots of uses for "forms" being put into google sheets quickly and easily. 
+
+The Google-sheets API has a limit of about 200 calls per month, which is highly restricted.  This totally gets around that. 
